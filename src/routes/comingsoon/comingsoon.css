@@ -1,0 +1,8 @@
+.comingsoon {
+    background-image: url('../../../src/assets/img/wip.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: initial;
+    height: 450px;
+    width: 47%;
+}

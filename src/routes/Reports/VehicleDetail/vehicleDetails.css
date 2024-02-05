@@ -1,0 +1,31 @@
+.css-yk16xz-control {
+    border: none !important;
+    padding: 6px 0 7px !important;
+    cursor: pointer !important;
+}
+
+.css-tlfecz-indicatorContainer {
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.css-yk16xz-control::before {
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    content: "\00a0" !important;
+    position: absolute !important;
+    transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42) !important;
+    pointer-events: none !important;
+}
+
+.css-yk16xz-control:hover:not(.Mui-disabled)::before {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.87) !important;
+}
+
+.css-1pahdxg-control {
+    border: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42) !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}

@@ -224,7 +224,6 @@ const Add = (props) => {
               }             
         };     
   
-  
       fetch(baseURL+'/web-fetch-assigning-tripdriver/'+ vehiclesOtherData.vehicle_branch, requestOptions)
       .then(response => response.json())
       .then(data => setDriver(data.drivers)); 

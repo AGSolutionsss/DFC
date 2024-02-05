@@ -1,3 +1,3 @@
 import axios from 'axios';
 
-export const baseURL = 'https://test.dfclogistics.online/public/api';
+export const baseURL = 'https://dfclogistics.online/public/api';
